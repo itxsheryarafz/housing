@@ -1,0 +1,661 @@
+.nav-link .btn-login {
+    color: white;
+    background-color: #08357A;
+    border-radius: 8px;
+    width: 120px;
+    height: 5vh;
+    font-family: 'Oswald', sans-serif; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-link .btn-join{
+
+    color: white;
+    background-color: #7FB3E0;
+    border-radius: 8px;
+    width: 120px;
+    height: 5vh;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+  }
+.hero-banner
+{
+    background-image: url("../images/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 83vh;
+    display: flex;
+justify-content: center;
+align-items: center; 
+}  
+.row-bg
+{
+    background: rgba(255, 255, 255, 0.82);
+backdrop-filter: blur(28px);
+   
+border-radius: 8px;
+
+width: 1294px;
+height: 62vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imgbox img
+{
+ 
+width: 457px;
+height: 44vh;
+
+border: 10px solid white;
+background: #FFFFFF;
+box-shadow: 0px 4px 30px 3px rgba(0, 0, 0, 0.42);
+}
+.market-text h2
+{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 76px;
+color: #08357A;
+text-transform: uppercase;
+
+}
+.market-text h5{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 35px;
+align-content: left;
+color: #4A4A4A;
+margin-top: 5%
+}
+
+.market-text button
+{
+    background-color: #08357A;
+    border-radius: 8px;
+    width: 160px;
+    height: 5vh;
+    color: white;
+    margin-top: 4%;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+.market-text .line
+{
+    width: 99px;
+    height: 0%;
+    border: 3px solid #7FB3E0;
+    margin-top: 5%;
+}
+.nav-home {
+    color: #FFC000 !important;
+  }
+  .btn-2
+  {
+    display: flex;
+  }
+
+  .navbar-menu {
+    gap: 48px;
+  }
+  .market-text {
+    text-align: start;
+    padding: 7%;
+  }
+
+  .nav-second {
+    color: #08357A !important;
+  }
+.line
+{
+    width: 99px;
+    height: 0%;
+    border: 3px solid #7FB3E0;
+    text-align: center;
+}
+
+.everyone-txt p
+{
+    color: #7FB3E0;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Oswald';
+font-style: normal;
+}
+.everyone-txt h2
+{
+   color: #08357A;
+   font-weight: 700;
+   font-family: 'Oswald';
+   font-size: 36px;
+}
+.card-bg h3
+{
+    color: #08357A;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+text-transform: uppercase;
+}
+
+.card-bg p
+{
+        color:#4A4A4A;
+        font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+}
+
+.card button
+{
+    background-color: #08357A;
+    color: white;
+    border-radius: 8px;
+    width: 160px;
+    height: 4vh;
+}
+
+.card-box
+{
+    background-color: #FFFFFF;
+    border: 2px solid #E7E7E7;
+    box-shadow: 2px 8px 34px 2px rgba(35, 39, 185, 0.08);
+border-radius: 8px;
+width:280px;
+height: 55vh;
+
+}
+
+.card-image {
+    padding: 11px 15px 15px 11px;
+  }
+  .rent-houses {
+    display: flex;
+    margin: 18px;
+    background: #FFFFFF;
+border: 2px solid #E7E7E7;
+box-shadow: 2px 8px 34px 2px rgba(35, 39, 185, 0.08);
+border-radius: 8px;
+  }
+
+
+
+  .card-p p
+  {
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.494118px;
+color: #4A4A4A;
+text-align: justify;
+  }
+
+
+  .card-t h3
+  {
+    color: #08357A;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+
+/* identical to box height, or 144% */
+letter-spacing: 0.494118px;
+text-transform: uppercase;
+text-align: justify;
+  }
+
+  .card-txt p
+  {
+    color: #4A4A4A;
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: justify;
+  }
+
+  .icons {
+    display: flex;
+    gap: 18px;
+  }
+
+  .feed-btn button
+  {
+    background-color: #08357A;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+    width: 160px;
+    height: 4vh;
+  }
+  .founder-section
+  {
+    background-color: #000000;
+    color: white;
+    height: 73vh;
+  }
+  .founders-text span
+  {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+  }
+  .founders-text h2
+  {
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+  }
+
+  .offer-bg
+  {
+    background-image: url("../images/offer.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 83vh;
+    display: flex;
+justify-content: center;
+align-items: center; 
+  }
+  .row-offer
+  {
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(28px);
+       
+    border-radius: 8px;
+    
+    width: 1294px;
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offer-text p
+  {
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 19.38px;
+color: #7FB3E0;
+  }
+  .offer-text h2
+  {
+    font-family: 'Oswald';
+    font-style: normal;
+    color: #08357A;
+    font-size: 36px;
+
+
+  }
+  .col-social h2
+  {
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 43px;
+text-align: center;
+
+color: #08357A;
+  }
+  .col-social {
+    margin-bottom: 12%;
+  }
+  .col-social p
+  {
+    color: #4A4A4A;
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 29px;
+text-align: center;
+  }
+
+  .exchange-images {
+    display: flex;
+  }
+  .boxes img {
+    display: flex;
+  }
+
+  .exchnage-txt p
+  {
+    color: #7FB3E0;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+text-align: justify;
+  }
+
+  .exchnage-txt h2
+  {
+    color: #08357A;
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 19px;
+text-align: justify;
+  }
+
+  .exchange-p p
+  {
+    
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 29px;
+text-align: justify;
+color: #4A4A4A;
+
+  }
+  .exchange-p button
+  {
+
+    background-color: #08357A;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+    width: 160px;
+    height: 4vh;
+    justify-items: left;
+  }
+
+  .exchnage-txt {
+    padding: 34px 22px 36px 0px;
+  }
+  .exchange-p {
+    margin-top: 5%;
+    
+  }
+  .exersice-section
+  {
+    background-color: #000000;
+    height: 66vh;
+    color: white;
+  }
+  .exchange-txt2 h2
+  {
+    color: white;
+  }
+
+  .exchange-p2 p
+  {
+    color: white;
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 29px;
+height: 26vh;
+  }
+
+  .exchange-p2 h4
+  {
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+text-align: justify;
+  }
+
+  .video-image {
+    margin-top: 6%;
+  }
+  
+  .card-box2
+  {
+      height: 51vh;
+      width: 350px;
+    }
+
+    .subscribe-row {
+      background: #FFFFFF;
+      border: 1px solid #D8D8D8;
+      box-shadow: -9px 7px 31px rgba(0, 0, 0, 0.08);
+      border-radius: 24px;
+      width: 1240px;
+      height: 231px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+
+    .subscriber {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .subscriber-txt h3
+     {
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 53px;
+      color: #08357A;
+    }
+    .subscriber-txt p{
+        color: #323232;
+        font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+    }
+
+    .subscribe-input {
+      background: #F3F3F3;
+      border-radius: 8px;
+      height: 6vh;
+    }
+
+    .subscribe-form
+    {
+      display: flex;
+    }
+
+    .subscribe-form button
+    {
+        color: #08357A;
+        background: #08357A;
+        border-radius: 8px;
+        color:white;
+        height: 5vh;
+        width: 160px;
+    }
+    .footer-1
+    {
+      background-color: #F5F5F5;
+      height: 49vh;
+      display: flex;
+      
+
+    }
+
+    .footer-p p
+    {
+        color: #606060;
+        font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+text-align: justify;
+margin-top: 14%;
+    }
+    
+    .footer-row {
+      margin-top: 2%;
+    }
+
+    .footer-logo {
+      align-items: start;
+      text-align: justify;
+    }
+    .footer-txt p
+    {
+      color: #08357A;
+      font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;  
+    }
+
+    .footer-txt span
+    {
+      color: #606060;
+      font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+    }
+
+
+    .footer-list h5
+    {
+      color: #08357A;
+      font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+margin-top: 12%;
+    }
+    .footer-li li {
+      margin-top: 8%;
+    }
+
+    .footer-li {
+      margin-top: 38px;
+    }
+    ul {
+      list-style-type: none;
+     }
+
+    .container2 {
+      margin-top: 6%;
+    }
+    .footer-txt {
+      margin-top: 12%;
+      text-align: justify;
+    }
+
+    .feed-line {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 2%;
+      margin-bottom: 4%;
+    
+    }
+
+    .everyone-txt {
+      margin-top: 3%;
+    }
+
+    .feed-btn {
+      margin-top: 6%;
+      margin-bottom: 4%;
+    }
+
+    .exchange-btn {
+      display: flex;
+      justify-content: start;
+    }
+
+    .icon-images {
+      display: flex;
+      gap: 15px;
+    }
+
+    .footer-tags
+    {
+        display: flex;
+        flex-wrap: wrap;
+        gap:5px;
+    }
+    .tags-all {
+      flex-basis: auto;
+      background: #FFFFFF;
+      border: 1px solid #E7E7E7;
+      box-shadow: 2px 9px 11px -3px rgba(35, 39, 185, 0.08);
+      border-radius: 5px;
+      color: #08357A;
+      margin-top: 8%;
+    }
+
+    .footer-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+justify-content: center;
+align-items: center;
+    }
+    .footer-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    @media screen and (max-width:414px)
+    {
+      .rent-houses
+      {
+        display: flow-root;
+      }
+    }
+ 
