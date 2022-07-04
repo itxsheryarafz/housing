@@ -10,21 +10,21 @@ export default function Offering() {
               <div className="line"></div>
             </div>
           </div>
-          <div className="col-4 col-social">
+          <div className="col-lg-4 col-md-6 col-sm-12 col-social">
             <h2>Social Media Platfroms</h2>
             <p>
               For buyers, investors, sellers, contractors, realtors to all have
               a meeting ground.
             </p>
           </div>
-          <div className="col-4 col-social">
+          <div className="col-lg-4 col-md-6 col-sm-12 col-social">
             <h2>Social Media Platfroms</h2>
             <p>
               For buyers, investors, sellers, contractors, realtors to all have
               a meeting ground.
             </p>
           </div>
-          <div className="col-4 col-social">
+          <div className="col-lg-4 col-md-6 col-sm-12 col-social">
             <h2>Social Media Platfroms</h2>
             <p>
               For buyers, investors, sellers, contractors, realtors to all have

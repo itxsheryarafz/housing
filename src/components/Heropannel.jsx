@@ -6,7 +6,7 @@ export default function Heropannel() {
     <section className="hero-banner">
       <container>
         <div className="row row-bg">
-          <div className="col-6 col-sm-12 col-md-6">
+          <div className="col-12 col-sm-12 col-md-6">
             <div className="market-text">
               <h2>Marketplace for buyers,sellers,investors, and contractors</h2>
               <div class="line"></div>
@@ -18,7 +18,7 @@ export default function Heropannel() {
               <button>GET HELP</button>
             </div>
           </div>
-          <div className="col-6 col-sm-12 col-md-6">
+          <div className="col-6 col-sm-12 col-md-6 d-none d-md-block">
             <div class="">
               <img src={img} alt=""></img>
             </div>

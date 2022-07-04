@@ -11,6 +11,14 @@
     line-height: 24px;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
 .nav-link .btn-join{
 
     color: white;
@@ -37,6 +45,7 @@ line-height: 24px;
     display: flex;
 justify-content: center;
 align-items: center; 
+background-position: center;
 }  
 .row-bg
 {
@@ -462,6 +471,7 @@ text-align: justify;
       box-shadow: -9px 7px 31px rgba(0, 0, 0, 0.08);
       border-radius: 24px;
       width: 1240px;
+      margin: 5%;
       height: 231px;
       display: flex;
       justify-content: center;
@@ -565,6 +575,17 @@ line-height: 25px;
     }
 
 
+
+    .footer-row::after {
+      content: "";
+      width: 100%;
+      color: #BABABA;
+      height: 0vh;
+      border: 1px solid;
+    }
+
+
+
     .footer-list h5
     {
       color: #08357A;
@@ -622,12 +643,12 @@ margin-top: 12%;
       gap: 15px;
     }
 
-    .footer-tags
+    /* .footer-tags
     {
         display: flex;
         flex-wrap: wrap;
         gap:5px;
-    }
+    } */
     .tags-all {
       flex-basis: auto;
       background: #FFFFFF;
@@ -635,7 +656,7 @@ margin-top: 12%;
       box-shadow: 2px 9px 11px -3px rgba(35, 39, 185, 0.08);
       border-radius: 5px;
       color: #08357A;
-      margin-top: 8%;
+      padding: 5px;
     }
 
     .footer-tags {
@@ -645,11 +666,22 @@ margin-top: 12%;
 justify-content: center;
 align-items: center;
     }
-    .footer-tags {
+    /* .footer-tags {
       display: flex;
       flex-wrap: wrap;
       gap: 5px;
+    } */
+
+    .boxe {
+      margin-top: 4%;
     }
+
+
+    .sc {
+      display: flex;
+      justify-content: space-between;
+    }
+    
 
     @media screen and (max-width:414px)
     {
@@ -657,5 +689,196 @@ align-items: center;
       {
         display: flow-root;
       }
+      .col-social
+      { 
+        margin-bottom: 0%;
+      }
+      .col-social p
+      {
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .exchange-images {
+        display: contents;
+      }
+      .exchange-btn {
+        display: flex;
+        justify-content: center;
+        margin: 23px;
+      }
+      .video-image img {
+        width: 99%;
+      }
+      .exersice-section
+      {
+        height: auto;
+      }
+      .exchange-p2 p
+      {
+        height: auto;
+      }
+      .row-bg
+      {
+        justify-content: left;
+        width: auto;
+      }
+
+      .market-text h2
+      {
+      font-size: 23px;
+line-height: normal;
+      }
+      .market-text h5
+      {
+        line-height:normal;
+        font-size: 20px;
+      }
+    }
+      @media screen and (max-width: 360px)
+      {
+        .exchnage-txt h2
+        {
+          font-weight: 700;
+          font-size: 32px;
+        }
+
+        
+      .icon-images {
+        display: grid;
+      }
+
+      .subscribe-row
+      {
+        margin: 8%;
+      }
+      .card-box2
+      {
+        height: auto;
+        margin-top: 10%;
+        width: auto;
+
+      }
+      .subscriber-txt p
+      {
+        font-size: 15px;
+      }
+
+      .subscriber-txt h3
+      {
+        font-size: 29px;
+      }
+
+      .col-social p {
+        font-size: 9px;
+        font-weight: 700;
+      }
+
+      .card-box
+      {
+        width: auto;
+height: auto;
+margin: 11px;
+      }
+      .footer-1
+      {
+        height: auto;
+      }
+    }
+
+    @media screen and (max-width: 412px) {
+    
+      .card-box
+      {
+        width: auto;
+        margin: 3%;
+      }
+      .card-box2 {
+        height: 51vh;
+        width: auto;
+        margin: 4%;
+      }
+      .footer-1
+      {
+        height: auto;
+      }
+    }
+
+    @media screen and (max-width: 810px)
+    {
+      .card-box
+      {
+        width: auto;
+        margin: 3%;
+      }
+      .rent-houses
+      {
+        display: block;
+      }
+      .row-offer
+      {
+        width: auto;
+      }
+
+      /* .boxes {
+        display: flex;
+        flex-direction: row-reverse;
+      } */
+
+      .exchange-images {
+        display: block;
+      }
+      .exchnage-txt h2
+      {
+        font-size: 32px;
+line-height: normal;
+      }
+      .subscriber-txt h3
+      {
+        font-size: 34px;
+      }
+      .subscriber-txt p
+      {
+        font-size: 18px;
+      }
+      .footer-1
+      {
+        height: auto;
+      }
+
+
     }
  
+    @media screen and (max-width:375px)
+    {
+      .card-box2
+      {
+        height: auto;
+        width: auto;
+      }
+      .market-text h5 {
+        line-height: normal;
+        font-size: 14px;
+      }
+      .market-text h2 {
+        font-size: 23px;
+        line-height: normal;
+      }
+      .everyone-txt h2
+      {
+        font-size: 23px;
+      }
+      .offer-text h2
+      {
+        font-size: 23px;
+      }
+      .icon-images img {
+        margin-top: 2%;
+      }
+      .icon-images {
+        display: grid;
+      }
+
+      .subscribe-form {
+        display: block;
+      }
+    }

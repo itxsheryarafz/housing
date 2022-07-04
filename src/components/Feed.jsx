@@ -43,9 +43,10 @@ export default function Feed() {
                     color2={"#D7524D"}
                   />
                   <div className="icons">
-                    <img src={bed} alt=""></img> 2
-                    <img src={square} alt=""></img> 2561 sq ft
-                    <img src={tub} alt=""></img> 2
+                    <img src={bed} alt=""></img> <div>2</div>
+                    <img src={square} alt=""></img>
+                    <div> 2561 sq ft</div>
+                    <img src={tub} alt=""></img> <div>2</div>
                   </div>
                 </div>
               </div>
@@ -75,9 +76,10 @@ export default function Feed() {
                     color2={"#D7524D"}
                   />
                   <div className="icons">
-                    <img src={bed} alt=""></img> 2
-                    <img src={square} alt=""></img> 2561 sq ft
-                    <img src={tub} alt=""></img> 2
+                    <img src={bed} alt=""></img>
+                    <div> 2</div>
+                    <img src={square} alt=""></img> <div>2561 sq ft</div>
+                    <img src={tub} alt=""></img> <div>2</div>
                   </div>
                 </div>
               </div>
@@ -107,9 +109,10 @@ export default function Feed() {
                     color2={"#D7524D"}
                   />
                   <div className="icons">
-                    <img src={bed} alt=""></img> 2
-                    <img src={square} alt=""></img> 2561 sq ft
-                    <img src={tub} alt=""></img> 2
+                    <img src={bed} alt=""></img>
+                    <div>2</div>
+                    <img src={square} alt=""></img> <div>2561 sq ft</div>
+                    <img src={tub} alt=""></img> <div>2</div>
                   </div>
                 </div>
               </div>
@@ -139,9 +142,11 @@ export default function Feed() {
                     color2={"#D7524D"}
                   />
                   <div className="icons">
-                    <img src={bed} alt=""></img> 2
-                    <img src={square} alt=""></img> 2561 sq ft
-                    <img src={tub} alt=""></img> 2
+                    <img src={bed} alt=""></img>
+                    <div> 2</div>
+                    <img src={square} alt=""></img>
+                    <div> 2561 sq ft</div>
+                    <img src={tub} alt=""></img> <div>2</div>
                   </div>
                 </div>
               </div>

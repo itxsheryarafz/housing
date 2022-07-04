@@ -17,6 +17,7 @@ import orange from "../assets/images/orange.svg";
 import appstore from "../assets/images/appstore.svg";
 import google from "../assets/images/google.svg";
 import video from "../assets/images/video.svg";
+import facebook from "../assets/images/facebook.svg";
 export {
   Ulogo,
   background,
@@ -37,4 +38,5 @@ export {
   google,
   orange,
   video,
+  facebook,
 };

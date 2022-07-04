@@ -6,7 +6,7 @@ export default function Exchange() {
     <section className="exchange-section">
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="exchnage-txt">
               <p>US HOUSING</p>
               <h2>EXCHANGE TOKEN</h2>
@@ -24,9 +24,9 @@ export default function Exchange() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="exchange-images">
-              <div>
+              <div class="boxe">
                 <img src={code} alt=""></img>
               </div>
               <div className="boxes">

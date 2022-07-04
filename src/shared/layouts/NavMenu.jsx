@@ -12,9 +12,9 @@ export default function NavMenu() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
             id="basic-navbar-nav"
-            className="navbar-collapse collapse justify-content-end navbar-fixed-top"
+            className="navbar-collapse collapse justify-content-center navbar-fixed-top"
           >
-            <Nav className="justify-content-end navbar-nav align-items-center navbar-menu">
+            <Nav className="justify-content-center navbar-nav align-items-center navbar-menu">
               <Nav.Link className="nav-home" href="#home">
                 Home
               </Nav.Link>
@@ -33,16 +33,16 @@ export default function NavMenu() {
               <Nav.Link className="nav-second" href="#link">
                 Investors
               </Nav.Link>
-              <div className="btn-2">
-                <Nav.Link href="#link">
-                  <button className="btn-login">Login</button>
-                </Nav.Link>
-                <Nav.Link href="#link">
-                  <button className="btn-join">Join</button>
-                </Nav.Link>
-              </div>
             </Nav>
           </Navbar.Collapse>
+          <div className="btn-2">
+            <Nav.Link href="#link">
+              <button className="btn-login">Login</button>
+            </Nav.Link>
+            <Nav.Link href="#link">
+              <button className="btn-join">Join</button>
+            </Nav.Link>
+          </div>
         </Container>
       </Navbar>
     </header>
