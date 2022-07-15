@@ -1,6 +1,8 @@
 import Navbar from "react-bootstrap/Navbar";
 import { Container, Nav } from "react-bootstrap";
 import { Ulogo } from "../../utils/images";
+import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 export default function NavMenu() {
   return (
     <header>
@@ -15,24 +17,49 @@ export default function NavMenu() {
             className="navbar-collapse collapse justify-content-center navbar-fixed-top"
           >
             <Nav className="justify-content-center navbar-nav align-items-center navbar-menu">
-              <Nav.Link className="nav-home" href="#home">
+              <NavLink
+                className="nav-link"
+                exact
+                activeClassName="active"
+                to="/"
+              >
                 Home
-              </Nav.Link>
-              <Nav.Link className="nav-second" href="#link">
+              </NavLink>
+              <NavLink
+                className="nav-link"
+                activeClassName="active"
+                to="/social"
+              >
                 Social Media
-              </Nav.Link>
-              <Nav.Link className="nav-second" href="#link">
+              </NavLink>
+              <NavLink
+                className="nav-link"
+                activeClassName="active"
+                to="/properties"
+              >
                 Properties
-              </Nav.Link>
-              <Nav.Link className="nav-second" href="#link">
+              </NavLink>
+              <NavLink
+                className="nav-link"
+                activeClassName="active"
+                to="/uhx-token"
+              >
                 USHX Token
-              </Nav.Link>
-              <Nav.Link className="nav-second" href="#link">
+              </NavLink>
+              <NavLink
+                className="nav-link"
+                activeClassName="active"
+                to="/realtors"
+              >
                 Realtors
-              </Nav.Link>
-              <Nav.Link className="nav-second" href="#link">
+              </NavLink>
+              <NavLink
+                className="nav-link"
+                activeClassName="active"
+                to="/investors"
+              >
                 Investors
-              </Nav.Link>
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
           <div className="btn-2">

@@ -2,6 +2,9 @@ import { Ulogo } from "../../utils/images";
 import { facebook } from "../../utils/images";
 import { google } from "../../utils/images";
 import { appstore } from "../../utils/images";
+import { twitter } from "../../utils/images";
+import { linkdin } from "../../utils/images";
+import { insta } from "../../utils/images";
 export default function Footer() {
   const tag = [
     {
@@ -123,23 +126,27 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* <div className="sc">
-          <div>
-            <img src={facebook} alt=""></img>
-            <img src={facebook} alt=""></img>
-            <img src={facebook} alt=""></img>
-            <img src={facebook} alt=""></img>
+        <div className="row sc align-items-center mt-3">
+          <div className="col-lg-4 col-md-6 col-sm-12 footer-col">
+            <div className="icons-social">
+              <img src={facebook} alt=""></img>
+              <img src={linkdin} alt=""></img>
+              <img src={twitter} alt=""></img>
+              <img src={insta} alt=""></img>
+            </div>
           </div>
-          <div>
-            <div className="download-icons">
-              <h4>Download Application Now: </h4>{" "}
-              <div>
-                <img src={google} alt=""></img>
-                <img src={appstore} alt=""></img>
+          <div className="col-lg-8 col-md-6 col-sm-12 justify-content-end align-items-center footer-col">
+            <div className="">
+              <div className="download-icons">
+                <h4>Download Application Now: </h4>{" "}
+                <div className="icons-download">
+                  <img src={google} alt=""></img>
+                  <img src={appstore} alt=""></img>
+                </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );

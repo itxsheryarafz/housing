@@ -12,8 +12,8 @@ export default function News() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-sm-12 col-lg-4 col-md-4">
+        <div className="row justify-content-center">
+          <div className="col-sm-12 col-lg-4 col-md-6">
             <div className="card card-box2">
               <div className="card-image-top">
                 <img src={couple} alt=""></img>
@@ -32,7 +32,7 @@ export default function News() {
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-lg-4 col-md-4">
+          <div className="col-sm-12 col-lg-4 col-md-6">
             <div className="card card-box2">
               <div className="card-image-top">
                 <img src={house} alt=""></img>
@@ -51,7 +51,7 @@ export default function News() {
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-lg-4 col-md-4">
+          <div className="col-sm-12 col-lg-4 col-md-6">
             <div className="card card-box2">
               <div className="card-image-top">
                 <img src={smallhouse} alt=""></img>

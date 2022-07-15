@@ -1,7 +1,7 @@
 export default function Offering() {
   return (
     <section className="offer-bg">
-      <container>
+      <div className="container">
         <div className="row row-offer">
           <div className="offer-text">
             <p>WHAT ARE WE</p>
@@ -32,7 +32,7 @@ export default function Offering() {
             </p>
           </div>
         </div>
-      </container>
+      </div>
     </section>
   );
 }

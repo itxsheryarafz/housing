@@ -3,7 +3,7 @@ import ReactStars from "react-stars";
 import { bed } from "../utils/images";
 import { tub } from "../utils/images";
 import { square } from "../utils/images";
-
+import { Link } from "react-router-dom";
 export default function Feed() {
   const ratingChanged = (newRating) => {
     console.log(newRating);
@@ -154,7 +154,9 @@ export default function Feed() {
           </div>
         </div>
         <div className="feed-btn">
-          <button>VIEW MORE</button>
+          <button>
+            <Link to="/listing">VIEW MORE</Link>
+          </button>
         </div>
       </div>
     </section>

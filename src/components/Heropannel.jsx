@@ -4,7 +4,7 @@ import { img } from "../utils/images";
 export default function Heropannel() {
   return (
     <section className="hero-banner">
-      <container>
+      <div className="container">
         <div className="row row-bg">
           <div className="col-12 col-sm-12 col-md-6">
             <div className="market-text">
@@ -19,12 +19,12 @@ export default function Heropannel() {
             </div>
           </div>
           <div className="col-6 col-sm-12 col-md-6 d-none d-md-block">
-            <div class="">
+            <div class="house-image">
               <img src={img} alt=""></img>
             </div>
           </div>
         </div>
-      </container>
+      </div>
     </section>
   );
 }
